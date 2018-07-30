@@ -1,0 +1,42 @@
+{
+  "name": "todo-list-app",
+  "version": "1.0.0",
+  "description": "A todo list app",
+  "main": "index.js",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "express": "^4.16.3",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "moment": "^2.22.2",
+    "numeral": "^2.0.6",
+    "path": "^0.12.7",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.0-rc.1",
+    "webpack": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "webpack",
+    "build:prod": "webpack -p --env production",
+    "dev-server": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrLPager/todo-list-app.git"
+  },
+  "keywords": [
+    "todo",
+    "list"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrLPager/todo-list-app/issues"
+  },
+  "homepage": "https://github.com/MrLPager/todo-list-app#readme"
+}
